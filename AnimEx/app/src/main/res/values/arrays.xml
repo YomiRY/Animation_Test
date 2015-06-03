@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="anim_function_array">
+        <item>Crossfading Two Views</item>
+        <item>Using ViewPager for Screen Slide</item>
+        <item>Display Card Flip Animations</item>
+        <item>Zooming a View</item>
+    </string-array>
+
+    <string-array name="color_array">
+        <item>#ff0000</item>
+        <item>#00ff00</item>
+        <item>#0000ff</item>
+        <item>#0f0f0f</item>
+        <item>#f0f0f0</item>
+    </string-array>
+</resources>

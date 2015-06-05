@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements IOnItemClickListener {
 
@@ -78,12 +79,12 @@ public class MainActivity extends Activity implements IOnItemClickListener {
              break;
 
              case 2: {
-
+                 Toast.makeText(this, "Not be implemented yet.", Toast.LENGTH_SHORT).show();
+                 return;
              }
-             break;
 
              case 3: {
-
+                 intent.setClass(this, ZoomActivity.class);
              }
              break;
          }
